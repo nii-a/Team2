@@ -27,6 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     if($password != $password2){
         echo"<script>alert('Passwords do not match'); window.location='../register.php'</script>";
+        exit();
       }
 
 
