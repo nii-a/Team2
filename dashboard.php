@@ -18,12 +18,10 @@ $total_users = $row['total_users'];
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="navbar">
-        <div class="title">Dashboard</div>
-        <a href="index.html" class="logout">Logout</a>
-    </div>
+    
 
     <?php include 'php/sidebar.php'; ?>
+    <?php include 'php/navbar.php'; ?>
 
     <div class="content">
         <div class="chart-container">

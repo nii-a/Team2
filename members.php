@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php include 'php/sidebar.php'; ?>
+    <?php include 'php/navbar.php'; ?>
+    
 
 
     <div class="team-container">
