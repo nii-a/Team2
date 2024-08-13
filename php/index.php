@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         VALUES ('$last_name', '$first_name', '$email', '$phone_number', '$hashed_password', $age, '$gender')";
         $result=mysqli_query($conn, $sql);
         // Show success message and redirect to login page
-        echo"<script>alert('Registration successful.'); window.location='../login.html'</script>";
+        echo"<script>alert('Registration successful.'); window.location='../index.html'</script>";
         exit();
       
       }

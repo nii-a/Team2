@@ -8,7 +8,7 @@ body {
 }
 
 .team-container {
-    margin-left: 220px; /* Add margin-left equal to sidebar width + padding */
+    margin-left: 440px; /* Add margin-left equal to sidebar width + padding */
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
 
 /* Heading styling */
 .team-list h1 {
-    font-size: 36px;
+    font-size: 72px;
     margin-bottom: 20px;
     color: #333;
 }
