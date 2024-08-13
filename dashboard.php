@@ -20,7 +20,7 @@ $total_users = $row['total_users'];
 <body>
     <div class="navbar">
         <div class="title">Dashboard</div>
-        <a href="login.html" class="logout">Logout</a>
+        <a href="index.html" class="logout">Logout</a>
     </div>
 
     <?php include 'php/sidebar.php'; ?>

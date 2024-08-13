@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
    if (mysqli_num_rows($result) == 0) {
     // User doesn't exist, show error message
-    echo "<script> alert('Invalid Credentials'); window.location='../login.html' </script>";
+    echo "<script> alert('Invalid Credentials'); window.location='../index.html' </script>";
     exit;
     }
 
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if($hashedPwdCheck == false)
         {
-            echo"<script> alert('Invalid Credentials'); window.location='../login.html' </script>";
+            echo"<script> alert('Invalid Credentials'); window.location='../index.html' </script>";
             
         }
 
