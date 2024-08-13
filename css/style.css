@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.team-container {
+    margin-left: 220px; /* Add margin-left equal to sidebar width + padding */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Styling for the team list */
+.team-list {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading styling */
+.team-list h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* List styling */
+.team-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-list ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Optional: Hover effect for list items */
+.team-list ul li:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .title {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.navbar .logout {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.sidebar {
+    background-color: #444;
+    color: white;
+    width: 200px; /* Ensure sidebar width is set */
+    padding-top: 60px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure sidebar is on top */
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.sidebar a.active {
+    background-color: #000; 
+    color: #fff; /* Change text color for visibility */
+}
+
+.content {
+    margin-left: 200px;
+    padding: 60px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.chart-container {
+    width: 60%;
+    margin: auto;
+}

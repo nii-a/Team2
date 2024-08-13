@@ -14,82 +14,8 @@ $total_users = $row['total_users'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .navbar {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            width: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .navbar .title {
-            margin-left: 20px;
-            font-size: 24px;
-        }
-
-        .navbar .logout {
-            margin-right: 20px;
-            text-decoration: none;
-            color: white;
-            font-size: 16px;
-            padding: 5px 10px;
-            background-color: #555;
-            border-radius: 5px;
-        }
-
-        .sidebar {
-            background-color: #444;
-            color: white;
-            width: 200px;
-            padding-top: 60px;
-            position: fixed;
-            height: 100%;
-            top: 0;
-            left: 0;
-        }
-
-        .sidebar a {
-            display: block;
-            color: white;
-            padding: 15px;
-            text-decoration: none;
-            margin: 10px 0;
-        }
-
-        .sidebar a:hover {
-            background-color: #555;
-        }
-
-        .content {
-            margin-left: 200px;
-            padding: 60px 20px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .chart-container {
-            width: 60%;
-            margin: auto;
-        }
-    </style>
 </head>
 <body>
     <div class="navbar">
@@ -97,12 +23,7 @@ $total_users = $row['total_users'];
         <a href="login.html" class="logout">Logout</a>
     </div>
 
-    <div class="sidebar">
-        <a href="#">Team 2</a>
-        <a href="#">Nii Adokwei Addo</a>
-        <a href="#">Kekeli Lovelace</a>
-        <a href="#">Mohammed</a>
-    </div>
+    <?php include 'php/sidebar.php'; ?>
 
     <div class="content">
         <div class="chart-container">
